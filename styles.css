@@ -1,0 +1,88 @@
+body {
+    background-color: powderblue;
+    margin:0;}
+
+#topleaf {
+  background: url(Asset/Barbeque-20230207T033701Z-001/Barbeque/MI-topleaf.webp) no-repeat top center;
+  height: 145px;
+}
+#nav-row {
+  width: 100%;
+  background-color: rgba(45, 44, 44, 0.144);
+  margin-top: -115px;
+  height: 50px;
+}
+#nav-row a {
+  color: #fff;
+  font-weight: 700;
+  margin: 15px 15px;
+}  
+#nav-row a {
+  float: right; 
+}
+h1   {
+    color: red; 
+    font-size:50px;
+    text-align: center;
+}
+h2 {
+    color:salmon;
+    font-size:50px;
+    text-align: center;
+}
+p    {color: green;
+      text-align:center;
+}
+#more {display: none;}
+img{
+    width:350px; 
+    height:350px;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 450px 450px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+.grid-container p{
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 100%;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .grid-container button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+
+
+  
+  
+  
+
+
+
+
+
+
